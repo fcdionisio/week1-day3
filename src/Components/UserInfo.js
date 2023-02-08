@@ -21,8 +21,8 @@ class UserInfo extends Component {
   handleChange = (e) => {
     //event object
     //console.log(e);
-    console.log(e.target.id);
-    console.log(e.target.value);
+    //console.log(e.target.id);
+    //console.log(e.target.value);
 
     // this is referring to UserInfo
     if (e.target.id == "name") {
@@ -180,11 +180,13 @@ class UserInfo extends Component {
 
       this.props.userInfo(this.state);
 
-/*       this.setState({
+        this.setState({
         name: "",
-        contactNumber: "",
+        dob : "",
         email: "",
-      }); */   // DISABLED for testing 
+        contactNumber: "",
+        aboutSelf: ""
+      }); 
     }
   };
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import UserInfo from "./Components/UserInfo";
 import Display from "./Display";
-import image from "./images/download.png";
 import MenuBar1 from './Components/Navbar';
 
 

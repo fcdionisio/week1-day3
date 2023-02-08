@@ -13,7 +13,7 @@ const Display = ({ userData }) => {
     return (
       <React.Fragment key={item.email}>
         <Card sx={{
-          maxWidth: 260, 
+          maxWidth: 300, 
           backgroundColor: "#00d4ff", 
           float: "left",
           marginBottom: "12px", 
@@ -21,16 +21,16 @@ const Display = ({ userData }) => {
 
         }}>
           <CardContent>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="h7" component="div">
               {item.name}
             </Typography>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="h7" component="div">
               {item.dob}
             </Typography>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="h7" component="div">
               {item.email}
             </Typography>
-            <Typography gutterBottom variant="h6" component="div">
+            <Typography gutterBottom variant="h7" component="div">
               {item.contactNumber}
             </Typography>            
             <Typography variant="body2" color="text.secondary">
